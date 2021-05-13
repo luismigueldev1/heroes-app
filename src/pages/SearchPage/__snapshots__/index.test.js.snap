@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <SearchPage/> debe de mostrarse correctamente con valores por defecto 1`] = `
+<div>
+  <h1>
+    Search Heroes
+  </h1>
+  <hr />
+  <div
+    className="row"
+  >
+    <div
+      className="col-sm-12 col-md-5"
+    >
+      <form
+        onSubmit={[Function]}
+      >
+        <label
+          className="form-label"
+          htmlFor="search"
+        >
+          Find a superhero here:
+        </label>
+        <input
+          className="form-control"
+          name="search"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+        <div
+          className="d-grid"
+        >
+          <button
+            className="btn mt-1 btn btn-primary"
+            type="submit"
+          >
+            Search
+          </button>
+        </div>
+      </form>
+    </div>
+    <div
+      className="col-sm-12 col-md-7"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="alert alert-info"
+          role="alert"
+        >
+          Search some hero first
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
